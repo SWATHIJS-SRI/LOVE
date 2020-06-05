@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Page</title>
+<style>
+	.heart
+	{
+		width:180px;
+		height:100px;
+		position:absolute;
+		left:40%;
+		bottom:35%;
+		top:70%;
+		background: #ff3e3e;
+		transition:2s;
+		transform-origin: right bottom;
+
+
+	}
+	.heart:before
+	{
+		content: '';
+		position :absolute;
+		width:100%;
+		height:100%;
+		background: #fff;
+		transform-origin: right bottom;
+
+	}
+	.heart:hover
+	{
+		transform:rotate(45deg);
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+
+	}
+	.heart:hover:before
+	{
+		background: #e22c2c;
+		transform:rotate(450deg) translateY(100px);
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+
+		
+
+	}
+</style>
+
+
+</head>
+<h1 style="color:violet;"> SWATHI &hearts;&hearts;&hearts; PRABA </h1>
+<body>
+	<h1 style="color:red;">MY LOVE </h1>
+	<p style="color:blue;"> <em>&hearts;&hearts;The way you looked at me when you first touched me still lying melted in my mind and I could see myself in your eyes as a true soul where i couldnt hide anything from you. And I tend to understand the value of true love&hearts;&hearts;</em></p>
+	<h2 style="color:red;">LOVE YOU MY WORLD</h2>
+	<p style="color:blue"><em>&hearts;&hearts;I juz couldnt restrict myself when i tend to list you my wishes about our future..Love You,Take me soon...&hearts;&hearts;</em> </p>
+	<img src="love.png" alt="Image" height="200" width="300"/><span> touch over me!!--------------></span>
+	<br>
+	<button  onclick="alert(' HAPPY 11TH MONTH LOVE ANNIVERSARY &hearts;&hearts;&hearts;I LOVE YOU MAMA');"> CLICK ME! </button>
+	<p class="heart"></p>
+
+</body>
+</html>
